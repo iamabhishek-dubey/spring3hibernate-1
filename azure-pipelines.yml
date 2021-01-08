@@ -12,7 +12,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     codeCoverageToolOption: 'Cobertura'
-    codeCoverageClassFilter: '**/target/site/cobertura/coverage.xml'
+    codeCoverageClassFilter: 'target/site/cobertura/coverage.xml'
     javaHomeOption: 'JDKVersion'
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
